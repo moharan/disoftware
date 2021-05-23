@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\img\intro.png" />
+    <Content Remove="wwwroot\img\logo_intro.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\img\intro.png" />
+    <None Include="wwwroot\img\logo_intro.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+</Project>
