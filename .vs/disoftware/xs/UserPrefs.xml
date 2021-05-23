@@ -4,11 +4,9 @@
     <Files>
       <File FileName="disoftware/Program.cs" Line="22" Column="18" />
       <File FileName="disoftware/Pages/Index.cshtml" Line="10" Column="7" />
-      <File FileName="disoftware/wwwroot/css/site.css" Line="76" Column="22" />
-      <File FileName="disoftware/Pages/Index.cshtml.cs" Line="1" Column="1" />
-      <File FileName="disoftware/Pages/Shared/_Layout.cshtml" Line="26" Column="30" />
-      <File FileName="disoftware/Pages/Privacy.cshtml.cs" Line="10" Column="2" />
-      <File FileName="disoftware/Pages/Privacy.cshtml" Line="4" Column="33" />
+      <File FileName="disoftware/wwwroot/css/site.css" />
+      <File FileName="disoftware/Pages/Index.cshtml.cs" />
+      <File FileName="disoftware/Pages/Shared/_Layout.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +18,9 @@
               </Node>
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
-                <Node name="Index.cshtml" expanded="True" selected="True" />
+                <Node name="Index.cshtml" expanded="True">
+                  <Node name="Index.cshtml.cs" selected="True" />
+                </Node>
                 <Node name="Login.cshtml" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
@@ -32,9 +32,6 @@
             </Node>
           </Node>
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
