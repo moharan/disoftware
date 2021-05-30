@@ -38,3 +38,5 @@
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/disoftware.csproj.CopyComplete
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/Login.cshtml.g.cs
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/Principal.cshtml.g.cs
+/Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/Maquinas.cshtml.g.cs
+/Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/Usuarios.cshtml.g.cs
