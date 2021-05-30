@@ -1,16 +1,10 @@
 ﻿<Properties StartupConfiguration="{1ED5BE76-8295-47DA-A18C-20F331B19C15}|Default">
   <MonoDevelop.Ide.ItemProperties.disoftware PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="disoftware/Pages/Maquinas.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="disoftware/Pages/Maquinas.cshtml">
     <Files>
-      <File FileName="disoftware/Pages/Usuarios.cshtml" Line="15" Column="8" />
-      <File FileName="disoftware/Pages/Maquinas.cshtml" Line="8" Column="21" />
-      <File FileName="disoftware/Pages/Principal.cshtml" Line="10" Column="18" />
       <File FileName="disoftware/Program.cs" Line="16" Column="1" />
-      <File FileName="disoftware/Pages/Login.cshtml" Line="15" Column="27" />
-      <File FileName="disoftware/Pages/Index.cshtml" Line="10" Column="7" />
-      <File FileName="disoftware/Pages/Maquinas.cshtml.cs" Line="11" Column="47" />
-      <File FileName="disoftware/Pages/Usuarios.cshtml.cs" Line="1" Column="1" />
-      <File FileName="disoftware/Pages/Login.cshtml.cs" Line="1" Column="1" />
+      <File FileName="disoftware/Pages/Maquinas.cshtml" Line="34" Column="18" />
+      <File FileName="disoftware/Pages/Usuarios.cshtml" Line="37" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,11 +12,7 @@
           <Node name="disoftware" expanded="True">
             <Node name="disoftware" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Login.cshtml" expanded="True" />
-                <Node name="Maquinas.cshtml" expanded="True">
-                  <Node name="Maquinas.cshtml.cs" selected="True" />
-                </Node>
-                <Node name="Usuarios.cshtml" expanded="True" />
+                <Node name="Maquinas.cshtml" selected="True" />
               </Node>
             </Node>
           </Node>
