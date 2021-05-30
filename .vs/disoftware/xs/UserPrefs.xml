@@ -1,13 +1,11 @@
 ﻿<Properties StartupConfiguration="{1ED5BE76-8295-47DA-A18C-20F331B19C15}|Default">
   <MonoDevelop.Ide.ItemProperties.disoftware PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="disoftware/Pages/Principal.cshtml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="disoftware/Program.cs">
     <Files>
       <File FileName="disoftware/Pages/Principal.cshtml.cs" Line="18" Column="10" />
-      <File FileName="disoftware/Pages/Login.cshtml" Line="46" Column="8" />
-      <File FileName="disoftware/Pages/Login.cshtml.cs" Line="1" Column="1" />
+      <File FileName="disoftware/Pages/Principal.cshtml" Line="22" Column="41" />
       <File FileName="disoftware/Pages/Index.cshtml.cs" Line="1" Column="1" />
-      <File FileName="disoftware/Pages/Principal.cshtml" Line="17" Column="7" />
-      <File FileName="disoftware/Pages/Index.cshtml" Line="9" Column="8" />
+      <File FileName="disoftware/Pages/Index.cshtml" Line="8" Column="1" />
       <File FileName="disoftware/Program.cs" Line="16" Column="1" />
     </Files>
     <Pads>
@@ -18,10 +16,9 @@
               <Node name="Pages" expanded="True">
                 <Node name="Index.cshtml" expanded="True" />
                 <Node name="Login.cshtml" expanded="True" />
-                <Node name="Principal.cshtml" expanded="True">
-                  <Node name="Principal.cshtml.cs" selected="True" />
-                </Node>
+                <Node name="Principal.cshtml" expanded="True" />
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

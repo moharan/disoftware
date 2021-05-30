@@ -10,14 +10,75 @@
     <title> Principal Page </title>
     <style>
         .container-principal{
-            background: blue;
+            margin-top: 10vh;
+        }
+        .header_principal {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .registros {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+        .monitoreo, .maquinas, .usuarios, .clientes {
+            background: #F32C50;
+            color: #ffffff;
+            margin: 0 0 0 10px;
+            width: 140px;
+            height: 50px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+            border: transparent;
+        }
+        .maquinas {
+            background: #F6A810;
+        }
+        .usuarios {
+            background: #65CAAC;
+        }
+        .clientes {
+            background: #7B79E0;
+        }
+        .reporteria {
+            margin: 0 auto;
         }
     </style>
 </head>
 <body>
     <form>
         <div class="container-principal">
-            hola soy principal
+            <div class="header_principal">
+                <div>
+                    <p><b>RentaMaq</b></p>
+                    <p>SISTEMA DE GESTION</p>
+                </div>
+                <div>
+                    <p>JEFE DE OFICINA</p>
+                    <p><b>Rangi Becerra</b></p>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <div class="registros">
+                <div>
+                    <h5 class="registros">Registros</h5>
+                    <div class="registros">
+                        <button class="clientes" type="submit">CLIENTES</button>
+                        <button asp-area="" asp-page="/Usuarios" class="usuarios" type="submit">USUARIOS</button>
+                        <button asp-area="" asp-page="/Maquinas" class="maquinas" type="submit">MÁQUINAS</button>
+                        <button class="monitoreo" type="submit">MONITOREO</button>
+                    </div>
+                </div>
+                <div class="reporteria">
+                    <img src="./../img/grafico.svg" alt="Grafico" />
+                    <p>ABC2000: 30-06-2021, 08:20AM</p>
+                </div>
+            </div>
         </div>
     </form>
 </body>
