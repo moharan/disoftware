@@ -24,7 +24,6 @@
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/disoftware.RazorCoreGenerate.cache
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/Index.cshtml.g.cs
-/Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/Privacy.cshtml.g.cs
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/Shared/_Layout.cshtml.g.cs
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/_ViewImports.cshtml.g.cs
@@ -37,3 +36,4 @@
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/disoftware.pdb
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/disoftware.genruntimeconfig.cache
 /Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/disoftware.csproj.CopyComplete
+/Users/rangibecerra/Projects/disoftware/disoftware/obj/Debug/net5.0/Razor/Pages/Login.cshtml.g.cs

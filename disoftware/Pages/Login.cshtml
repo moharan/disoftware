@@ -1,8 +1,46 @@
 ﻿@page
 @model LoginModel
 @{
-    ViewData["Title"] = "LOGIN";
+    ViewData["Title"] = "Iniciar Sesión";
 }
-<h1>@ViewData["Title"]</h1>
-
-<p>AQUI VAMOS</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Login Page </title>
+    <style>
+        .container-login {
+            width: 30vw;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .detalle-input {
+            border: transparent;
+            border-bottom: 1px solid #000;
+        }
+        .ingresar {
+            background: #000000 !important;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="container-login">
+            <img src="./../img/cabecera.svg" alt="Logo RentaMaq" />
+            <br />
+            <br />
+            <h4><b>@ViewData["Title"]</b></h4>
+            <p>INICIAR SESIÓN CON TUS DATOS ASIGNADOS</p>
+            <label>Usuario </label>
+            <input class="detalle-input"type="text" placeholder="Ingresa tu nombre de usuario" name="username" required>
+            <br />
+            <label>Contraseña </label>
+            <input class="detalle-input" type="password" placeholder="Ingresa tu contraseña" name="password" required>
+            <br />
+            <button class="ingresar" type="submit">Ingresar</button>
+        </div>
+    </form>
+</body>
+</html>

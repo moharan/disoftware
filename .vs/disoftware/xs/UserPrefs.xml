@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{1ED5BE76-8295-47DA-A18C-20F331B19C15}|Default">
   <MonoDevelop.Ide.ItemProperties.disoftware PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="disoftware/Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="disoftware/Pages/Login.cshtml">
     <Files>
-      <File FileName="disoftware/Program.cs" Line="22" Column="18" />
-      <File FileName="disoftware/Pages/Index.cshtml" Line="10" Column="7" />
-      <File FileName="disoftware/wwwroot/css/site.css" />
-      <File FileName="disoftware/Pages/Index.cshtml.cs" />
-      <File FileName="disoftware/Pages/Shared/_Layout.cshtml" />
+      <File FileName="disoftware/Pages/Login.cshtml" Line="25" Column="10" />
+      <File FileName="disoftware/Program.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,15 +15,15 @@
               </Node>
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
-                <Node name="Index.cshtml" expanded="True">
-                  <Node name="Index.cshtml.cs" selected="True" />
-                </Node>
-                <Node name="Login.cshtml" expanded="True" />
+                <Node name="Index.cshtml" expanded="True" />
+                <Node name="Login.cshtml" expanded="True" selected="True" />
               </Node>
               <Node name="Properties" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
                 <Node name="img" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True" />
               </Node>
               <Node name="appsettings.json" expanded="True" />
             </Node>
@@ -36,7 +33,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
